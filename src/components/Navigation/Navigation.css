@@ -1,0 +1,15 @@
+.nav-container {
+    background-color: #040706;
+    color: white;
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Source Sans Pro", arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 72px;
+}
