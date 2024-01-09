@@ -4,7 +4,7 @@
 }
 
 .nav-container {
-    background-color: #040706;
+    background-color: black;
     color: white;
     position: relative;
     margin: 0px;
@@ -29,4 +29,7 @@
 
 .tab {
     margin: 0px 10px;
+    font-family: "Source Sans Pro", arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
 }
