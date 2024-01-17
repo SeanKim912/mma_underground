@@ -8,13 +8,15 @@ const Navigation = () => {
             <li>
                 <img className="logo" src={require('./mma_underground_icon.png')} />
             </li>
-            <li className="menu-tabs">
-                <li className="tab">CLASSES</li>
-                <li className="tab">KIDS</li>
-                <li className="tab">COACHES</li>
-                <li className="tab">TESTIMONIALS</li>
-                <li className="tab">ABOUT US</li>
-                <li className="tab">CONTACT US</li>
+            <li>
+                <ul className="menu-tabs">
+                    <li className="tab">CLASSES</li>
+                    <li className="tab">KIDS</li>
+                    <li className="tab">COACHES</li>
+                    <li className="tab">TESTIMONIALS</li>
+                    <li className="tab">ABOUT US</li>
+                    <li className="tab">CONTACT US</li>
+                </ul>
             </li>
         </ul>
     )
