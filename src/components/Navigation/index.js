@@ -10,6 +10,7 @@ const Navigation = () => {
             </li>
             <li>
                 <ul className="menu-tabs">
+                    <li className="tab">HOME</li>
                     <li className="tab">CLASSES</li>
                     <li className="tab">KIDS</li>
                     <li className="tab">COACHES</li>
