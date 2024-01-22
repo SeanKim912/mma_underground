@@ -1,0 +1,17 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-left {
+    width: 45vw;
+
+}
+
+.main-right {
+    width: 45vw;
+}
+
+.main-img {
+    width: 45vw;
+}
