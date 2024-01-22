@@ -5,7 +5,7 @@
 
 .main-left {
     width: 45vw;
-
+    color: white;
 }
 
 .main-right {
@@ -14,4 +14,10 @@
 
 .main-img {
     width: 45vw;
+}
+
+.main-text {
+    font-family: "Fjalla One", arial, sans-serif;
+    font-size: 55px !important;
+    font-weight: 400;
 }
