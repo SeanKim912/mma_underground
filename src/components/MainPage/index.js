@@ -1,5 +1,6 @@
 import React from "react";
-import './MainPage.css'
+import './MainPage.css';
+import MainGallery from "../MainGallery";
 
 const MainPage = () => {
     return (
