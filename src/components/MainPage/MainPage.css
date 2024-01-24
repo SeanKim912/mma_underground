@@ -6,14 +6,31 @@
 .main-left {
     width: 45vw;
     color: white;
+    padding-left: 50px;
 }
 
 .main-right {
-    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    width: 95wv;
 }
 
 .main-text {
     font-family: "Fjalla One", arial, sans-serif;
     font-size: 55px !important;
     font-weight: 400;
+}
+
+.button-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.main-button {
+    border-radius: 28px;
+    font-family: 'Source Sans Pro', arial, sans-serif;
+    font-weight: 700;
+    height: 56px;
 }

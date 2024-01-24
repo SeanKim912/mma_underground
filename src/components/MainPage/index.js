@@ -10,12 +10,12 @@ const MainPage = () => {
                 <h3>835 Virginia Rd, Unit C</h3>
                 <h3>Crystal Lake, Illinois 60014</h3>
                 <h3>(847) 219-5920</h3>
-                <ul>
+                <ul className="button-list">
                     <li>
-                        <button>CONTACT US</button>
+                        <button className="main-button">CONTACT US</button>
                     </li>
                     <li>
-                        <button>CLASS SCHEDULE</button>
+                        <button className="main-button">CLASS SCHEDULE</button>
                     </li>
                 </ul>
             </div>
