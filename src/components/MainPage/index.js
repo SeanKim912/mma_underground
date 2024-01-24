@@ -20,8 +20,7 @@ const MainPage = () => {
                 </ul>
             </div>
             <div className="main-right">
-                <img className="main-img" src={require('./mma_underground_banner.webp')} />
-                <img className="main-img" src={require('./northwest_herald.webp')} />
+                <MainGallery />
             </div>
         </div>
     )
