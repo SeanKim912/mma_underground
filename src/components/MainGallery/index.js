@@ -7,7 +7,7 @@ import img2 from './northwest_herald.webp';
 import img3 from './gym_front.jpg';
 
 const MainGallery = () => {
-    const [currentIndex, setCurrentUser] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
     const images = [
         img1,
