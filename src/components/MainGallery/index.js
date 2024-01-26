@@ -14,25 +14,25 @@ const MainGallery = () => {
     ]
 
     return (
-        <>
+        <div className='slide-container'>
             <Slide>
-                <div className='slide-effect'>
+                <div className='slide-effect' slidesToScroll={1} slidesToShow={1}>
                     <div style={{ 'backgroundImage': `url(${images[0]})` }}>
                         <span>Slide 1</span>
                     </div>
                 </div>
-                <div className='slide-effect'>
+                <div className='slide-effect' slidesToScroll={1} slidesToShow={1}>
                     <div style={{ 'backgroundImage': `url(${images[1]})` }}>
                         <span>Slide 2</span>
                     </div>
                 </div>
-                <div className='slide-effect'>
+                <div className='slide-effect' slidesToScroll={1} slidesToShow={1}>
                     <div style={{ 'backgroundImage': `url(${images[2]})` }}>
                         <span>Slide 3</span>
                     </div>
                 </div>
             </Slide>
-        </>
+        </div>
     )
 }
 
