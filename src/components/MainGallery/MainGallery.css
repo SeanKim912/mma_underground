@@ -1,4 +1,7 @@
 .slide-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 100%;
     position: relative;
 }
@@ -10,4 +13,8 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.arrows {
+    color: white;
 }

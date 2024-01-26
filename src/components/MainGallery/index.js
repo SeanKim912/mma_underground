@@ -17,9 +17,10 @@ const MainGallery = () => {
 
     return (
         <div className='slide-container'>
+                <div className='arrows'>«</div>
             <div className='slide' style={{backgroundImage: `url(${images[currentIndex]})`}}>
-
             </div>
+                <div className='arrows'>»</div>
         </div>
     )
 }
