@@ -10,9 +10,7 @@
 }
 
 .main-right {
-    display: flex;
-    flex-direction: row;
-    width: 95wv;
+    width: 45vw;
 }
 
 .main-text {
