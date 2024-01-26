@@ -16,5 +16,8 @@
 }
 
 .arrows {
+    background-color: #150000;
     color: white;
+    font-size: 30px;
+    margin: 10px;
 }

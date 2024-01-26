@@ -15,12 +15,28 @@ const MainGallery = () => {
         img3
     ];
 
+    function leftButton() {
+        if (currentIndex > 0) {
+            setCurrentIndex(currentIndex - 1)
+        }
+    }
+
+    function rightButton() {
+        if (currentIndex < images.length - 1) {
+            setCurrentIndex(currentIndex + 1)
+        }
+    }
+
     return (
         <div className='slide-container'>
-                <div className='arrows'>«</div>
-            <div className='slide' style={{backgroundImage: `url(${images[currentIndex]})`}}>
+            <div>
+                <button className='arrows' onClick={leftButton}>«</button>
             </div>
-                <div className='arrows'>»</div>
+                <div className='slide' style={{backgroundImage: `url(${images[currentIndex]})`}}>
+            </div>
+            <div>
+                <button className='arrows' onClick={rightButton}>»</button>
+            </div>
         </div>
     )
 }
