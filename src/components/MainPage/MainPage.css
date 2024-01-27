@@ -6,6 +6,10 @@
 }
 
 .main-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 45vw;
     color: white;
     padding-left: 5vw;
@@ -19,13 +23,13 @@
 .main-text {
     font-family: "Fjalla One", arial, sans-serif;
     font-size: 55px !important;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .button-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
