@@ -10,7 +10,7 @@
     margin: 0px;
     display: flex;
     flex-direction: row;
-    font-family: "Source Sans Pro", arial, sans-serif;
+    font-family: "FjallaOne";
     font-size: 21px;
     font-weight: 700;
     align-items: center;
@@ -30,7 +30,7 @@
 
 .tab {
     margin: 0px 10px;
-    font-family: "Source Sans Pro", arial, sans-serif;
+    font-family: "FjallaOne";
     font-size: 18px;
     font-weight: 500;
 }

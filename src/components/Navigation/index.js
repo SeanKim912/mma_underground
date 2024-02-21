@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <ul className="nav-container">
             <li>
-                <img className="logo" src={require('./mma_underground_icon.png')} />
+                <img className="logo" src={require('../../images/mma_underground_icon.png')} />
             </li>
             <li>
                 <ul className="menu-tabs">
