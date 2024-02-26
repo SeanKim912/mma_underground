@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'FjallaOne';
-    src: local('FjallaOne'),
-    url(./FjallaOne-Regular.ttf) format('truetype');
+    font-family: "FjallaOne";
+    src: local("FjallaOne"),
+    url("./fonts/FjallaOne-Regular.ttf") format("truetype");
 }

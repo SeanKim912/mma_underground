@@ -21,7 +21,7 @@
 }
 
 .main-text {
-    font-family: 'FjallaOne';
+    font-family: 'FjallaOne', sans-serif;
     font-size: 55px !important;
     font-weight: bold;
 }
@@ -35,7 +35,7 @@
 
 .main-button {
     border-radius: 28px;
-    font-family: 'FjallaOne';
+    font-family: 'FjallaOne', sans-serif;
     font-weight: 700;
     height: 56px;
 }
