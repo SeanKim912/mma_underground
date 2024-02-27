@@ -11,7 +11,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<MainPage/>}/>
-          <Route path="/classes" element={<MainGallery />} />
+          <Route path="/pictures" element={<MainGallery />} />
         </Routes>
       </Router>
     </>

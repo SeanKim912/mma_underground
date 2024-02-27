@@ -8,6 +8,7 @@
 
 .slideshowSLider {
     white-space: nowrap;
+    transition: ease 1000ms;
 }
 
 .slide {
@@ -28,5 +29,9 @@
     border-radius: 50%;
     cursor: pointer;
     margin: 15px 7px 0px;
-    background-color: #c4c4c4;
+    background-color: white;
+}
+
+.slideshowDot.active {
+    background-color: #ed1f25;
 }
