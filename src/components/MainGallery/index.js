@@ -41,7 +41,7 @@ const MainGallery = () => {
             <div className='slideshow'>
                 <div
                     className='slideshowSlider'
-                    style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+                    style={{ transform: `translate3d(0, ${-index * 45}vh, 0)` }}
                 >
                     {images.map((image, index) => (
                         <img

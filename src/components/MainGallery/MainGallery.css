@@ -12,7 +12,10 @@
 }
 
 .slide {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
     height: 45vh;
     width: 45vw;
     border-radius: 40px;
