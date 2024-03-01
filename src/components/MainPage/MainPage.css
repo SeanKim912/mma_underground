@@ -12,11 +12,14 @@
     align-items: center;
     justify-content: center;
     width: 45vw;
-    color: white;
-    padding-left: 5vw;
+    color: white
 }
 
 .main-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 45vw;
     height: 80vh;
 }
