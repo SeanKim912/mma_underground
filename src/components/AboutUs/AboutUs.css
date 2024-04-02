@@ -12,3 +12,12 @@
     color: white;
     margin: 0 15vw;
 }
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.point {
+    color: white;
+}
