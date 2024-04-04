@@ -34,3 +34,16 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+.tabLink {
+    text-decoration: none;
+}
+
+.tabLink:hover {
+    text-decoration: underline;
+}
+
+.tabLink:visited {
+    color: white;
+    text-decoration: none;
+}

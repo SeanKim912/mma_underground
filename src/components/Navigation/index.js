@@ -6,15 +6,17 @@ const Navigation = () => {
     return (
         <ul className="nav-container">
             <li>
-                <img className="logo" src={require('../../images/mma_underground_icon.png')} />
+                <NavLink exact to="/">
+                    <img className="logo" src={require('../../images/mma_underground_icon.png')} />
+                </NavLink>
             </li>
             <li>
                 <ul className="menu-tabs">
                     <li className="tab">
-                        <NavLink exact to="/">HOME</NavLink>
+                        <NavLink className="tabLink" exact to="/">HOME</NavLink>
                     </li>
                     <li className="tab">
-                        <NavLink exact to="/about">ABOUT US</NavLink>
+                        <NavLink className="tabLink" exact to="/about">ABOUT US</NavLink>
                     </li>
                     <li className="tab">CLASSES</li>
                     <li className="tab">KIDS</li>
