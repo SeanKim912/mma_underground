@@ -1,0 +1,47 @@
+.coachesContainer {
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.coachesColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+    font-family: "FjallaOne";
+    color: white;
+}
+
+.coachImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hover-gradient {
+    height: 100%;
+    color: transparent;
+}
+
+.hover-gradient:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(180deg, transparent, black);
+    animation: fadeIn 0.5s;
+    color: white;
+}
+
+.hover-text {
+    margin-top: 55vh;
+}
