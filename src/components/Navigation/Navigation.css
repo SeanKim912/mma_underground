@@ -37,10 +37,12 @@
 
 .tabLink {
     text-decoration: none;
+    color: white;
 }
 
 .tabLink:hover {
     text-decoration: underline;
+    color: white;
 }
 
 .tabLink:visited {
