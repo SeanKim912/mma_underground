@@ -48,7 +48,6 @@ const Coaches = () => {
             </div>
         </div>
     )
-
 }
 
 export default Coaches;

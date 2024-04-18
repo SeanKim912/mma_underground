@@ -18,7 +18,9 @@ const Navigation = () => {
                     <li className="tab">
                         <NavLink className="tabLink" exact to="/about">ABOUT US</NavLink>
                     </li>
-                    <li className="tab">CLASSES</li>
+                    <li className="tab">
+                        <NavLink className="tabLink" exact to="/schedule">SCHEDULE</NavLink>
+                    </li>
                     <li className="tab">KIDS</li>
                     <li className="tab">
                         <NavLink className="tabLink" exact to="/coaches">COACHES</NavLink>

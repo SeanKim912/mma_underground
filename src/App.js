@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import MainPage from './components/MainPage';
 import AboutUs from './components/AboutUs';
 import Coaches from './components/Coaches';
+import ClassSchedule from './components/ClassSchedule';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<MainPage/>}/>
           <Route path="/about" element={<AboutUs />} />
           <Route path="/coaches" element={<Coaches />}/>
+          <Route path="/schedule" element={<ClassSchedule />}/>
         </Routes>
       </Router>
     </>
