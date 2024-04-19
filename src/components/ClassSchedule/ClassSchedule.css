@@ -1,0 +1,9 @@
+.scheduleContainer {
+    height: 100%;
+}
+
+.scheduleGrid {
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
