@@ -3,10 +3,10 @@ body {
   background-image: linear-gradient(to right,black, #181e23);
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 @font-face {
   font-family: "FjallaOne";
