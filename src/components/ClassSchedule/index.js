@@ -5,13 +5,12 @@ const ClassSchedule = () => {
     return (
         <div className='scheduleContainer'>
             <div className='scheduleGrid'>
-                <div></div>
-                <div>Monday</div>
-                <div>Tuesday</div>
-                <div>Wednesday</div>
-                <div>Thursday</div>
-                <div>Friday</div>
-                <div>Saturday</div>
+                <div style={{"gridColumnStart": 2, "gridRowStart": 1}}>Monday</div>
+                <div style={{"gridColumnStart": 3, "gridRowStart": 1}}>Tuesday</div>
+                <div style={{"gridColumnStart": 4, "gridRowStart": 1}}>Wednesday</div>
+                <div style={{"gridColumnStart": 5, "gridRowStart": 1}}>Thursday</div>
+                <div style={{"gridColumnStart": 6, "gridRowStart": 1}}>Friday</div>
+                <div style={{"gridColumnStart": 7, "gridRowStart": 1}}>Saturday</div>
                 <div style={{"gridColumnStart": 1, "gridRowStart": 2}}>9:00 AM</div>
                 <div style={{"gridColumnStart": 1, "gridRowStart": 3}}>9:30 AM</div>
                 <div style={{"gridColumnStart": 1, "gridRowStart": 4}}>10:00 AM</div>
