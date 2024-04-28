@@ -36,6 +36,7 @@ const ClassSchedule = () => {
                 <div style={{"gridColumnStart": 1, "gridRowStart": 23}}>7:30 PM</div>
                 <div style={{"gridColumnStart": 1, "gridRowStart": 24}}>8:00 PM</div>
                 <div style={{"gridColumnStart": 1, "gridRowStart": 25}}>8:30 PM</div>
+                <div className='slot' style={{"gridColumnStart": 7, "gridRowStart": 5, "gridRowEnd": 6}}>Sparring 10:30 - 11:30</div>
             </div>
         </div>
     )

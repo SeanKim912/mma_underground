@@ -8,4 +8,13 @@
     grid-template-rows: repeat(25, 1fr);
     grid-template-columns: repeat(7, 1fr);
     color: white;
+    margin: 5% 5%;
+}
+
+.slot {
+    border-style: solid;
+    background-color: red;
+    border-radius: 3px;
+    border-color: red;
+    height: 100%;
 }
