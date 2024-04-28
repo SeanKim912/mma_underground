@@ -1,6 +1,7 @@
 import React from "react";
 import './MainPage.css';
 import MainGallery from "../MainGallery";
+import { NavLink } from "react-router-dom";
 
 const MainPage = () => {
     return (
@@ -15,7 +16,9 @@ const MainPage = () => {
                         <button className="main-button">CONTACT US</button>
                     </li>
                     <li>
-                        <button className="main-button">CLASS SCHEDULE</button>
+                        <NavLink exact to="/schedule">
+                            <button className="main-button">CLASS SCHEDULE</button>
+                        </NavLink>
                     </li>
                 </ul>
             </div>

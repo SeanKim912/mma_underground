@@ -34,13 +34,23 @@
 .button-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 50%;
     list-style-type: none;
 }
 
 .main-button {
     border-radius: 28px;
     font-family: 'FjallaOne', sans-serif;
+    font-size: 20px;
     font-weight: 700;
     height: 56px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-button:hover {
+    color: white;
+    background-color: #181e23;
+    transition: 0.3s;
 }
