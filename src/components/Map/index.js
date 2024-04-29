@@ -1,4 +1,4 @@
-import { GoogleMap, Marker, useLoadScript } from "../../../node_modules/@react-google-maps/api";
+import { GoogleMap, Marker, useLoadScript } from '@react-google-maps/api';
 
 const Map = () => {
     const libraries = ["places"];

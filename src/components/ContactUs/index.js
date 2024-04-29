@@ -5,6 +5,7 @@ import './ContactUs.css';
 const ContactUs = () => {
     return (
         <div className="contact-container">
+            <Map />
             <h1 className="contact-text">CONTACT US</h1>
             <h3>835 Virginia Rd, Unit C</h3>
             <h3>Crystal Lake, Illinois 60014</h3>
