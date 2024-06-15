@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     width: 45vw;
-    color: white
+    color: white;
 }
 
 .main-right {
@@ -107,7 +107,7 @@
   /* Text color */
   /* Can be anything */
   --color-1: red;
-  --color-2: blue;
+  --color-2: white;
 
   /* Fuzzy white outline text */
   color: transparent;
@@ -128,5 +128,21 @@
     background: linear-gradient(45deg, var(--color-1), var(--color-2));
     mix-blend-mode: multiply;
     z-index: 2;
+  }
+}
+
+h1 {
+  --font-size: clamp(6.25rem, 3.25rem + 15vw, 13.75rem);
+
+  font: 700 var(--font-size)/1 "Lato", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+
+  &:empty,
+  &:focus {
+    border: 2px dotted white;
+    min-width: 1ch;
+    outline-offset: 5px;
   }
 }
